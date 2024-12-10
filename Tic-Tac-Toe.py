@@ -115,7 +115,7 @@ button.grid(row=4, column=0, columnspan=3, sticky="we")
 
 frame.pack()
 
-# centrar a janela
+# center the window
 window.update()
 window_width = window.winfo_width()
 window_height = window.winfo_height()
@@ -124,7 +124,8 @@ screen_height = window.winfo_screenheight()
 window_x = int((screeen_width/2) - (window_width/2))
 window_y = int((screen_height/2) - (window_height/2))
 print(window_y)
-# formato
+
+# format
 window.geometry(f"{window_width}x{window_height}+{window_x}+{window_y}")
 
 window.mainloop()
