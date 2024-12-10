@@ -109,7 +109,7 @@ for row in range(3):
                                             command=lambda row=row, column=column: set_title(row, column))
         board[row][column].grid(row=row+1, column=column)
 
-button = tkinter.Button(frame, text="restrat", font=("consolas", 20), background=color_grey, foreground="white", command=new_game) 
+button = tkinter.Button(frame, text="restart", font=("consolas", 20), background=color_grey, foreground="white", command=new_game) 
 
 button.grid(row=4, column=0, columnspan=3, sticky="we")
 
